@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(-120deg, white, red, white);
+    background-attachment: fixed;
+    position: relative;
+    font-size: 22px;
+}
+
+#card {
+    margin-top: 10%;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    height: auto;
+    width: 350px;
+    border-radius: 10px;
+    background-color: white;
+    background-image: url("./img/box.png");
+    background-size: 50vh, 70vh;
+    box-shadow: 0px 0px 20px red;
+    transform: rotate(5deg);
+    display: none;
+}
+
+#card img {
+    margin: auto;
+    padding: 2.5%;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 red;
+    width: 60px;
+    height: 60px;
+}
+
+h4 {
+    text-align: center;
+    -webkit-text-fill-color: rgba(0, 200, 200, 0.1);
+    -webkit-background-clip: text;
+    background-image: url("https://i.pinimg.com/originals/20/21/7f/20217f7fa2c9701b8128d8fb153a4db9.gif");
+    font-family: 'Sansita Swashed', cursive;
+    padding: -2%;
+    font-size: 19px;
+    overflow: hidden;
+}
+
+.close-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 8px;
+    padding-right: 10px;
+    font-size: 26px;
+    color: black;
+}
+
+.close-icon:hover {
+    color: red !important;
+    cursor: pointer;
+}
+
+#card.card-open {
+    display: block;
+    left: 10%;
+}

@@ -1,0 +1,61 @@
+.tap-pane {
+    display: none;
+}
+
+.tap-pane.active {
+    display: block;
+}
+
+.last {
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.last:hover {
+    background-color: pink;
+    box-shadow: 0 0 4px;
+    cursor: pointer;
+}
+
+#close.close-icon {
+    color: black;
+}
+
+@media (max-width: 739px) {
+    .present-box.open>.side.front {
+        width: 0;
+    }
+    #card {
+        width: 280px !important;
+        left: 50% !important;
+        transform: translate(-50%) !important;
+        margin-top: 150px !important;
+    }
+    #table {
+        left: calc(50% - 170px) !important;
+        width: 340px !important;
+    }
+    .content__container__list {
+        width: 245px !important;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    #card {
+        margin-top: 150px !important;
+    }
+    #table {
+        left: calc(50% - 180px) !important;
+        width: 360px !important;
+    }
+    .content__container__list {
+        width: 210px !important;
+    }
+}
