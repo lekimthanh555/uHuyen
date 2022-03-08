@@ -17,9 +17,9 @@ new Vue({
                     favorited: false
                 },
                 {
-                    name: "Hồng Thanh x Mie",
-                    artist: "Anh kết em rồi",
-                    cover: "https://github.com/phamxuantrung/WomenDay_by_TrungPham/blob/main/img/2.jpg?raw=true",
+                    name: "Huy",
+                    artist: "Cô gái m52",
+                    cover: "huyen.jpg",
                     source: "2.mp3",
                     url: "https://www.youtube.com/watch?v=Lin-a2lTelg",
                     favorited: true
@@ -73,9 +73,9 @@ new Vue({
                     favorited: false
                 },
                 {
-                    name: "Lost Frequencies",
-                    artist: "Reality",
-                    cover: "https://github.com/phamxuantrung/WomenDay_by_TrungPham/blob/main/img/9.jpg?raw=true",
+                    name: "Huyền Tâm Môn",
+                    artist: "Phố Đã Lên Đèn",
+                    cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdKSVz75iUhupVpkxfAeFGrA4uNbL-N9sFqg&usqp=CAU",
                     source: "9.mp3",
                     url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
                     favorited: false
